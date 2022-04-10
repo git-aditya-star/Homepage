@@ -42,6 +42,15 @@ const Page= () => {
             </Box> 
             <Section delay={0.1}>
                 <Heading as="h3" variant="section-title">
+                    Experience
+                </Heading>
+                <Paragraph style={{'fontWeight':'bold'}}>Software Development Intern</Paragraph>
+                <Paragraph>Finarkein Analytics · Internship</Paragraph>
+                <Paragraph style={{'fontStyle': 'italic'}}>Mar 2022 - Present</Paragraph>
+            </Section>
+
+            <Section delay={0.1}>
+                <Heading as="h3" variant="section-title">
                     Work
                 </Heading>
                 <Paragraph>I have an interactive personality. Keen interest in Android Development, Web Development and Deep Learning. Proficient in Data Structures and Algorithms.
@@ -57,7 +66,19 @@ const Page= () => {
                 <Heading as="h3" variant="section-title">
                     Publications
                 </Heading>
-                <Paragraph style={{'fontWeight':'bold'}}>Windows Memory Management</Paragraph>
+                <Paragraph style={{'fontWeight':'bold'}}>Types of data binding with template in Vue.js</Paragraph>
+                <Paragraph>GeeksforGeeks | Apr 4, 2022</Paragraph>
+                <Paragraph>
+                    <Link href='https://www.geeksforgeeks.org/types-of-data-binding-with-template-in-vue-js/' target="_blank">See Publication</Link>
+                </Paragraph>
+
+                <Paragraph style={{'fontWeight':'bold', 'marginTop':'10px'}}>Machine Learning Applications by Google</Paragraph>
+                <Paragraph>GeeksforGeeks | Mar 2, 2022</Paragraph>
+                <Paragraph>
+                    <Link href='https://www.geeksforgeeks.org/machine-learning-applications-by-google/' target="_blank">See Publication</Link>
+                </Paragraph>
+
+                <Paragraph style={{'fontWeight':'bold', 'marginTop':'10px'}}>Windows Memory Management</Paragraph>
                 <Paragraph>GeeksforGeeks | Jan 18, 2022</Paragraph>
                 <Paragraph>
                     <Link href='https://www.geeksforgeeks.org/windows-memory-managment/' target="_blank">See Publication</Link>
