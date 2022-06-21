@@ -46,15 +46,20 @@ const Page= () => {
                 </Heading>
                 <Paragraph style={{'fontWeight':'bold'}}>Software Development Intern</Paragraph>
                 <Paragraph>Finarkein Analytics · Internship</Paragraph>
-                <Paragraph style={{'fontStyle': 'italic'}}>Mar 2022 - Present</Paragraph>
+                <Paragraph style={{'fontStyle': 'italic'}}>Mar 2022 - May 2022</Paragraph>
             </Section>
 
             <Section delay={0.1}>
                 <Heading as="h3" variant="section-title">
                     Work
                 </Heading>
-                <Paragraph>I have an interactive personality. Keen interest in Android Development, Web Development and Deep Learning. Proficient in Data Structures and Algorithms.
-                I&apos;ve completed a great deal of coursework on cutting-edge application development and best practices, including Android Development along with Web Development, where I learned and applied skills such as application wireframing, user journey mapping and designing software for android and web.</Paragraph>
+                <Paragraph>
+                I have an interactive personality. <br/>
+                Real Industry Experience with Frontend VueJs, TypeScript, Integration with backend REST API endpoints, State Management, Phone Auth, Storage Strategies. <br/>
+                Worked on UI and REST API integration in flutter and javaFx, CNN architecture for image classification, Backend with MySql PHP. <br/>
+                Interested to learn about Backend Technologies like Spring Boot or NodeJs. <br/>
+                Proficient in Data Structures and Algorithms.
+                </Paragraph>
             <Box align="center" my={4}>
                 <NextLink href="/works">
                     <Button rightIcon={<ChevronRightIcon /> } colorScheme ="teal">My Portfolio</Button>
