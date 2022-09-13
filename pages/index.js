@@ -27,7 +27,7 @@ const Page= () => {
         <Layout>
         <Container>
             <Box borderRadius="lg" bg={useColorModeValue('whiteAlpha.500','whiteAlpha.200')} p={3} mb={6} mt={2} align="center">
-                Hello, I&apos;m a Third Year Student at Vishwakarma Institute of Technology, Pune!
+                Hello, I&apos;m a Fourth Year Student at Vishwakarma Institute of Technology, Pune!
             </Box>
             <Box display={{md:'flex'}}>
                 <Box flexGrow={1}>
@@ -47,6 +47,9 @@ const Page= () => {
                 <Paragraph style={{'fontWeight':'bold'}}>Software Development Intern</Paragraph>
                 <Paragraph>Finarkein Analytics · Internship</Paragraph>
                 <Paragraph style={{'fontStyle': 'italic'}}>Mar 2022 - May 2022</Paragraph>
+                <Paragraph style={{'fontWeight':'bold'}}>Software Engineer Intern</Paragraph>
+                <Paragraph>Entytle, Inc · Internship</Paragraph>
+                <Paragraph style={{'fontStyle': 'italic'}}>Jul 2022 - current</Paragraph>
             </Section>
 
             <Section delay={0.1}>
@@ -57,7 +60,9 @@ const Page= () => {
                 I have an interactive personality. <br/>
                 Real Industry Experience with Frontend VueJs, TypeScript, Integration with backend REST API endpoints, State Management, Phone Auth, Storage Strategies. <br/>
                 Worked on UI and REST API integration in flutter and javaFx, CNN architecture for image classification, Backend with MySql PHP. <br/>
-                Interested to learn about Backend Technologies like Spring Boot or NodeJs. <br/>
+                Spring Boot -&gt; Web, JPA, Security, JWT, H2, MySql, JDBC, Thymeleaf, Lombok. <br/>
+                Interested to learn about Backend Technologies NodeJs. <br />
+                AWS -&gt; IAM, s3, cloudfront, EC2, RDS, dynamoDB, Route53, VPC. <br />
                 Proficient in Data Structures and Algorithms.
                 </Paragraph>
             <Box align="center" my={4}>
