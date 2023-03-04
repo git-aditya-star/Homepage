@@ -171,10 +171,14 @@ const Page = () => {
           <Paragraph style={{ fontWeight: 'bold' }}>
             Software Engineer Intern
           </Paragraph>
-          <Paragraph>Entytle, Inc · Internship</Paragraph>
-          <Paragraph style={{ fontStyle: 'italic' }}>
-            Jul 2022 - current
-          </Paragraph>
+          <>
+            <Box marginLeft="1em" display="flex" justifyContent="space-between">
+              <Text textAlign="left">
+              Entytle, Inc · Internship
+              </Text>
+              <Text textAlign="right" fontStyle='italic'>July 2022 - current</Text>
+            </Box>
+          </>
           <Paragraph>(Spring Boot, Java, ReactJS, MySQL, AWS, PLSQL)</Paragraph>
           <List marginLeft="1em">
             <UnorderedList>
@@ -205,10 +209,15 @@ const Page = () => {
           <Paragraph style={{ fontWeight: 'bold', marginTop: '1em' }}>
             Software Development Intern
           </Paragraph>
-          <Paragraph>Finarkein Analytics · Internship</Paragraph>
-          <Paragraph style={{ fontStyle: 'italic' }}>
-            Mar 2022 - May 2022
-          </Paragraph>
+          <>
+            <Box marginLeft="1em" display="flex" justifyContent="space-between">
+              <Text textAlign="left">
+              Finarkein Analytics · Internship
+              </Text>
+              <Text textAlign="right" fontStyle='italic'> March 2022 - May 2022</Text>
+            </Box>
+          </>
+      
           <Paragraph>(VueJS, TypeScript)</Paragraph>
           <List marginLeft="1em">
             <UnorderedList>
